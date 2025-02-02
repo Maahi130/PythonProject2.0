@@ -16,8 +16,8 @@ if not os.path.exists(file_path):
 # Send email function
 def send_email(name, date, time, email):
     """Sends an appointment confirmation email."""
-    sender_email = "your-email@example.com"
-    sender_password = "your-email-password"
+    sender_email = "mediabymay@gmail.com"
+    sender_password = "Maahi27240?"
 
     msg = MIMEText(f"Hello {name}, your appointment is booked for {date} at {time}.")
     msg["Subject"] = "Appointment Confirmation"
